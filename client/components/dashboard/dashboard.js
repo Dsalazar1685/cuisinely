@@ -11,7 +11,7 @@ import PopularRecipes from './popular-recipes.js';
 import axios from 'axios';
 import levels from '../../../db/levels';
 
-class Dashboard extends React.Component {
+export class Dashboard extends React.Component {
   constructor(props) {
     super(props);
 

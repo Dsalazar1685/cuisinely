@@ -1,5 +1,5 @@
 import { SET_SHOPPING_LIST, SET_MEAL_PLAN, EDIT_MEAL_PLAN, COMPLETE_RECIPE, SET_USER_INFO, SET_POINT, SET_EDIT, SET_LEVEL } from '../actions/actions.js';
-const initialState = {
+export const initialState = {
   loggedIn: '',
   shoppingList: [],
   mealPlan: [],
